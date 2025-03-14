@@ -31,6 +31,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="32"/>
                                     <color key="baseForegroundColor" red="0.4941176471" green="0.79607843140000001" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FpB-65-gev"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ask me anything..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDz-Ik-pJl">
                                 <rect key="frame" x="61" y="160" width="273" height="39"/>
@@ -43,6 +46,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.49411764705882355" green="0.79607843137254897" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="ballImage" destination="q25-h9-h5y" id="Kvv-qd-DjW"/>
+                        <outlet property="rollButton" destination="ICt-PU-Ql3" id="uvI-ot-AZD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
