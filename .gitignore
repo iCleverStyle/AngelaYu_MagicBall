@@ -1,0 +1,16 @@
+# Игнорировать временные файлы системы
+.DS_Store
+Thumbs.db
+
+# Игнорировать сборочные файлы Xcode
+build/
+DerivedData/
+*.xcworkspace
+
+# Игнорировать зависимости CocoaPods
+Pods/
+*.lock
+
+# Игнорировать кеши
+.swiftpm/
+.package/
