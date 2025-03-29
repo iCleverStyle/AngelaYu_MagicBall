@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "made by IB"
     }
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
@@ -25,9 +26,11 @@ class ViewController: UIViewController {
         
         if isRolling {
             sender.setTitle("Stop", for: .normal)
+            sender.titleLabel?.font = UIFont.systemFont(ofSize: 32, weight: .bold)
             startRolling()
         } else {
             sender.setTitle("Roll", for: .normal)
+            sender.titleLabel?.font = UIFont.systemFont(ofSize: 32, weight: .bold)
             stopRolling()
         }
     }
